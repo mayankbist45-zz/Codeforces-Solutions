@@ -1,25 +1,33 @@
+
 #include <bits/stdc++.h>
 
-#define int long long
 using namespace std;
 
-int32_t main() {
+#define ll long long
+#define MOD 1000000007
 
-    int n , k;
-    cin >> n >> k;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    vector<int> h(n + 1, 0), dp(n, LLONG_MAX);
-    dp[0] = 0;
-    for (int i = 0; i < n; i++)
-        cin >> h[i];
-    for (int i = 0; i < n; i++) {
-        for (int j = i ; j <= i+k ;j++) {
-            if (j < n)
-                dp[j] = min(dp[j], abs(h[i] - h[j]) + dp[i]);
-        }
+    int n,k;
+    cin>>n>>k;
+
+    int ar[n];
+    for (int i = 0; i < n; ++i)
+    {
+        cin>>ar[i];
     }
-    cout << dp[n - 1];
+
+    vector<int> dp(n,INFINITY);
+    dp[0] = 0;
+
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<=i+k;j++)
+            if(j<n)
+                dp[j] = min(dp[j], dp[i]+abs(ar[i]-ar[j]));
+    }
+    cout<<dp[n-1];
+
+    return 0;
 }
-
-
-
