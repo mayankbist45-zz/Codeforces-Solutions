@@ -1,29 +1,37 @@
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
-#define ll long long int
+#define ll long long
+#define MOD 1000000007
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int n;
-    cin >> n;
+    cin>>n;
 
-    vector<vector<ll> > dp(n, vector<ll>(3));
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < 3; ++j) {
-            cin >> dp[i][j];
+    int ar[n][3];
+    for (int i = 0; i <n; ++i) {
+        for (int j = 0; j <3; ++j) {
+            cin>>ar[i][j];
         }
     }
-    for (int i = n-2; i >= 0; i--) {
-        for (int j = 0; j < 3; j++){
-            ll a = 0;
-            for(int k = 0;k <3; k++){
+
+    for(int i = n-2;i>=0;i--){
+        for(int j=0;j<3;j++){
+            int ans =0 ;
+            for(int k =0;k<3;k++){
                 if(k!=j)
-                    a = max(a, dp[i+1][k]);
+                 ans = max(ans,ar[i+1][k]);
             }
-            dp[i][j] += a;
+                ar[i][j] += ans;
         }
     }
+    cout<<*max_element(ar[0],ar[0]+3);
 
-    cout << *max_element(dp[0].begin(),dp[0].begin()+3);
+
+    return 0;
 }
