@@ -1,28 +1,30 @@
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "cert-err34-c"
-#include "bits/stdc++.h"
+
+#include <bits/stdc++.h>
 
 using namespace std;
+#define int long long
+int32_t  main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-using ll = long long;
-
-int main() {
     int n, W;
-    scanf("%d%d", &n, &W);
-    vector<ll> dp(W + 1); // 0 ... W
+    cin >> n >> W;
 
-    // dp[i] - the maximum total value of items with total weight exactly i
-    for (int item = 0; item < n; ++item) {
-        int weight, value;
-        scanf("%d%d", &weight, &value);
+    int w[n], val[n];
 
-        // dp[0] -> dp[3] -> dp[6]
-        for (int weight_already = W - weight; weight_already >= 0; --weight_already) {
+    for (int i = 0; i < n; ++i) {
+        cin >> w[i] >> val[i];
+    }
 
-//        for(int weight_already = 0; weight_already <= W - weight; ++weight_already) {
-            dp[weight_already + weight] = max(dp[weight_already + weight], dp[weight_already] + value);
+    int dp[n + 1][W + 1] = {};
+
+    for (int i = 1; i <= n; i++) {
+        for (int wt = 0; wt <= W; wt++) {
+            dp[i][wt] = dp[i - 1][wt];
+            if (wt - w[i - 1] >= 0)
+                dp[i][wt] = max(val[i - 1] + dp[i-1][wt - w[i - 1]], dp[i][wt]);
         }
     }
-    cout <<dp[W];
+    cout << dp[n][W];
+    return 0;
 }
-#pragma clang diagnostic pop
