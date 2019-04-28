@@ -1,37 +1,44 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int MOD = 1e9 + 7;
 
-int32_t main() {
-    int h, w;
-    cin >> h >> w;
+const int maxn = 1010;
+char mat[maxn][maxn];
+int h, w;
+const int mod = 1e9 + 7;
 
-    char mat[h][w];
-    for (int i = 0; i < h; ++i) {
-        for (int j = 0; j < w; ++j) {
-            cin >> mat[i][j];
-        }
-    }
-    int dp[h][w] = {};
-    for (int k = 0; k < h; ++k) {
-        if (mat[k][0] == '#')
-            break;
-        dp[k][0] = 1;
-    }
-    for (int k = 0; k < w; ++k) {
-        if (mat[0][k] == '#')
-            break;
-        dp[0][k] = 1;
-    }
-    for (int i = 1; i < h; i++)
-        for (int j = 1; j < w; j++) {
-            if (mat[i][j] == '#')
-                dp[i][j] = 0;
-            else
-                dp[i][j] = dp[i - 1][j]%MOD + dp[i][j - 1]%MOD;
-        }
-
-    cout << dp[h - 1][w - 1]%MOD;
+void add_self(int &a, int b) {
+    a += b;
+    if (a >= mod)
+        a -= mod;
 }
 
+void go() {
+
+    vector<vector<int>> dp(h, vector<int>(w));
+    dp[0][0] = 1;
+
+    for (int row = 0; row < h; row++) {
+        for (int col = 0; col < w; col++) {
+            for (int r2 :{row, row + 1}) {
+                int c2 = col;
+                if (r2 == row)
+                    c2 += 1;
+                if (r2 < h && c2 < w && mat[r2][c2] == '.')
+                    add_self(dp[r2][c2], dp[row][col]);
+            }
+        }
+    }
+    cout << dp[h - 1][w - 1];
+}
+
+int main() {
+    cin >> h >> w;
+
+    for (int u = 0; u < h; u++) {
+        for (int j = 0; j < w; j++)
+            cin >> mat[u][j];
+    }
+
+    go();
+}
