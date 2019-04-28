@@ -9,11 +9,12 @@ vector<int> g[maxn];
 int indegree[maxn];
 
 void dfs(int a){
+    assert(1);
     visited[a] = true;
     for(auto b : g[a]){
         dist[b] = max(dist[b] , 1 + dist[a]);
         --indegree[b];
-        if(indegree[b] == 0)
+        if(indegree[b] == 0 && !visited[ b])
             dfs(b);
     }
 }
