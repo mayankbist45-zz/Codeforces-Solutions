@@ -1,31 +1,28 @@
-
-#include <bits/stdc++.h>
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-err34-c"
+#include "bits/stdc++.h"
 
 using namespace std;
 
-#define int long long
-#define MOD 1000000007
+using ll = long long;
 
-int32_t main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
+int main() {
     int n, W;
-    cin >> n >> W;
+    scanf("%d%d", &n, &W);
+    vector<ll> dp(W + 1); // 0 ... W
 
-    vector<int> w(n + 1), v(n + 1);
-    for (int i = 1; i <= n; ++i) {
-        cin >> w[i] >> v[i];
-    }
-    int dp[W + 1][n + 1] = {};
-    for (int wt = 1; wt <= W; wt++) {
-        for (int i = 1; i <= n; i++) {
-            if (w[i] <= wt)
-                dp[wt][i] = max(dp[wt][i - 1], v[i] + dp[wt - w[i]][i - 1]);
-            else
-                dp[wt][i] = dp[wt][i-1];
+    // dp[i] - the maximum total value of items with total weight exactly i
+    for (int item = 0; item < n; ++item) {
+        int weight, value;
+        scanf("%d%d", &weight, &value);
+
+        // dp[0] -> dp[3] -> dp[6]
+        for (int weight_already = W - weight; weight_already >= 0; --weight_already) {
+
+//        for(int weight_already = 0; weight_already <= W - weight; ++weight_already) {
+            dp[weight_already + weight] = max(dp[weight_already + weight], dp[weight_already] + value);
         }
     }
-    cout << dp[W][n];
-    return 0;
+    cout <<dp[W];
 }
+#pragma clang diagnostic pop
