@@ -1,39 +1,29 @@
 #include <bits/stdc++.h>
 
-#define int long long
 using namespace std;
-int n;
 
-int solve(int dp[100010][3]) {
-    for (int i = n - 2; i >= 0; i--) {
-        for (int j = 0; j < 3; j++) {
-            int ans = -1e14;
-            for (int k = 0; k < 3; k++) {
-                if (j != k)
-                    ans = max(dp[i + 1][k], ans);
-            }
-            dp[i][j] += ans;
-        }
-    }
-    int ans = -1e14;
-    for (int l = 0; l < 3; ++l) {
-        ans = max(ans, dp[0][l]);
-    }
-    return ans;
-}
+#define ll long long int
 
-
-int32_t main() {
-
-    int dp[100010][3];
+int main() {
+    int n;
     cin >> n;
-    int ans = 0;
-    for (int i = 0; i < n; i++) {
+
+    vector<vector<ll> > dp(n, vector<ll>(3));
+    for (int i = 0; i < n; ++i) {
         for (int j = 0; j < 3; ++j) {
             cin >> dp[i][j];
         }
     }
-    cout << solve(dp) << endl;
+    for (int i = n-2; i >= 0; i--) {
+        for (int j = 0; j < 3; j++){
+            ll a = 0;
+            for(int k = 0;k <3; k++){
+                if(k!=j)
+                    a = max(a, dp[i+1][k]);
+            }
+            dp[i][j] += a;
+        }
+    }
 
+    cout << *max_element(dp[0].begin(),dp[0].begin()+3);
 }
-
