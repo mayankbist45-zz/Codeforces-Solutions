@@ -1,26 +1,31 @@
+
 #include <bits/stdc++.h>
 
-#define int long long
 using namespace std;
 
+#define int long long
+#define MOD 1000000007
+
 int32_t main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
     int n, W;
     cin >> n >> W;
 
-    vector<int> w(n + 1), val(n + 1);
+    vector<int> w(n + 1), v(n + 1);
     for (int i = 1; i <= n; ++i) {
-        cin >> w[i] >> val[i];
+        cin >> w[i] >> v[i];
     }
-    int dp[n + 1][W + 1] = {};
-    for (int i = 1; i <= n; i++) {
-        for (int wt = 1; wt <= W; wt++) {
+    int dp[W + 1][n + 1] = {};
+    for (int wt = 1; wt <= W; wt++) {
+        for (int i = 1; i <= n; i++) {
             if (w[i] <= wt)
-                dp[i][wt] = max(dp[i - 1][wt], dp[i - 1][wt - w[i]] + val[i]);
+                dp[wt][i] = max(dp[wt][i - 1], v[i] + dp[wt - w[i]][i - 1]);
             else
-                dp[i][wt] = dp[i - 1][wt];
+                dp[wt][i] = dp[wt][i-1];
         }
     }
-    cout << dp[n][W];
+    cout << dp[W][n];
+    return 0;
 }
-
