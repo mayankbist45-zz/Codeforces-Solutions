@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC6447098": {
+    "contest_id": "abc134",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc134/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Dodecagon",
+    "problem_url": "https://atcoder.jp/contests/abc134/tasks/abc134_a",
+    "submission_id": "AC6447098",
+    "submission_url": "https://atcoder.jp/contests/abc134/submissions/6447098",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/20/2019 17:31"
+  },
   "AC6452796": {
     "contest_id": "abc134",
     "language": "C++14 (GCC 5.4.1)",
