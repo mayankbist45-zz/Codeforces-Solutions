@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC6452796": {
+    "contest_id": "abc134",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc134/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Golden Apple",
+    "problem_url": "https://atcoder.jp/contests/abc134/tasks/abc134_b",
+    "submission_id": "AC6452796",
+    "submission_url": "https://atcoder.jp/contests/abc134/submissions/6452796",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/20/2019 17:37"
+  },
   "AC6454962": {
     "contest_id": "abc134",
     "language": "C++14 (GCC 5.4.1)",
