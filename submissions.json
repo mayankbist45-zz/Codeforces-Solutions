@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC8630133": {
+    "contest_id": "abc145",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc145/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Average Length",
+    "problem_url": "https://atcoder.jp/contests/abc145/tasks/abc145_c",
+    "submission_id": "AC8630133",
+    "submission_url": "https://atcoder.jp/contests/abc145/submissions/8630133",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/24/2019 18:58"
+  },
   "AC8635080": {
     "contest_id": "abc146",
     "language": "C++14 (GCC 5.4.1)",
