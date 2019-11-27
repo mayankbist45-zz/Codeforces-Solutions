@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC8679216": {
+    "contest_id": "abc100",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc100/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "*3 or /2",
+    "problem_url": "https://atcoder.jp/contests/abc100/tasks/abc100_c",
+    "submission_id": "AC8679216",
+    "submission_url": "https://atcoder.jp/contests/abc100/submissions/8679216",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/28/2019 03:40"
+  },
   "AC8679230": {
     "contest_id": "abc101",
     "language": "C++14 (GCC 5.4.1)",
