@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC8679329": {
+    "contest_id": "abc103",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc103/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Modulo Summation",
+    "problem_url": "https://atcoder.jp/contests/abc103/tasks/abc103_c",
+    "submission_id": "AC8679329",
+    "submission_url": "https://atcoder.jp/contests/abc103/submissions/8679329",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/28/2019 04:39"
+  },
   "AC8679350": {
     "contest_id": "abc102",
     "language": "C++14 (GCC 5.4.1)",
