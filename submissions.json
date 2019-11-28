@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC8679580": {
+    "contest_id": "abc105",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc105/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Base -2 Number",
+    "problem_url": "https://atcoder.jp/contests/abc105/tasks/abc105_c",
+    "submission_id": "AC8679580",
+    "submission_url": "https://atcoder.jp/contests/abc105/submissions/8679580",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/28/2019 05:57"
+  },
   "AC8700291": {
     "contest_id": "abc144",
     "language": "C++14 (GCC 5.4.1)",
