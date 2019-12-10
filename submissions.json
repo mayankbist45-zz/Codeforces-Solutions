@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC8895655": {
+    "contest_id": "abc140",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc140/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Maximal Value",
+    "problem_url": "https://atcoder.jp/contests/abc140/tasks/abc140_c",
+    "submission_id": "AC8895655",
+    "submission_url": "https://atcoder.jp/contests/abc140/submissions/8895655",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/10/2019 13:17"
+  },
   "AC8895947": {
     "contest_id": "abc143",
     "language": "C++14 (GCC 5.4.1)",
