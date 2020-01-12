@@ -8,7 +8,7 @@ using namespace std;
 #define maxn 100010
 
 int lcm(int a, int b) {
-    return a / __gcd(a, b) * b;
+    return (a * b) / __gcd(a, b);
 }
 
 void solve() {
