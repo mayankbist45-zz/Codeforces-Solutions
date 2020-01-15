@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC9528948": {
+    "contest_id": "abc050",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc050/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Addition and Subtraction Easy",
+    "problem_url": "https://atcoder.jp/contests/abc050/tasks/abc050_a",
+    "submission_id": "AC9528948",
+    "submission_url": "https://atcoder.jp/contests/abc050/submissions/9528948",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/16/2020 05:22"
+  },
   "AC9528959": {
     "contest_id": "abc050",
     "language": "C++14 (GCC 5.4.1)",
