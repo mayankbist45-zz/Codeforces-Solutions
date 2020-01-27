@@ -4495,6 +4495,22 @@
     ],
     "timestamp": "Jan/31/2021 11:50"
   },
+  "AC9782625": {
+    "contest_id": "abc153",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc153/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Caracal vs Monster",
+    "problem_url": "https://atcoder.jp/contests/abc153/tasks/abc153_d",
+    "submission_id": "AC9782625",
+    "submission_url": "https://atcoder.jp/contests/abc153/submissions/9782625",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/27/2020 14:48"
+  },
   "CF100351115": {
     "contest_id": 1453,
     "language": "GNU C++17 (64)",
