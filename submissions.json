@@ -1,4 +1,20 @@
 {
+  "AC12168391": {
+    "contest_id": "arc004",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc004/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "2\u70b9\u9593\u8ddd\u96e2\u306e\u6700\u5927\u5024 ( The longest distance )",
+    "problem_url": "https://atcoder.jp/contests/arc004/tasks/arc004_1",
+    "submission_id": "AC12168391",
+    "submission_url": "https://atcoder.jp/contests/arc004/submissions/12168391",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/20/2020 15:15"
+  },
   "AC12168598": {
     "contest_id": "abc087",
     "language": "C++14 (GCC 5.4.1)",
