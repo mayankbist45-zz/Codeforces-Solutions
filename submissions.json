@@ -1,4 +1,20 @@
 {
+  "AC12232912": {
+    "contest_id": "abc107",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc107/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Grid Compression",
+    "problem_url": "https://atcoder.jp/contests/abc107/tasks/abc107_b",
+    "submission_id": "AC12232912",
+    "submission_url": "https://atcoder.jp/contests/abc107/submissions/12232912",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/23/2020 01:18"
+  },
   "AC12233044": {
     "contest_id": "abc096",
     "language": "C++14 (GCC 5.4.1)",
