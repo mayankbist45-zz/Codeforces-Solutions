@@ -1,4 +1,20 @@
 {
+  "AC12257460": {
+    "contest_id": "code-festival-2014-morning-easy",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/code-festival-2014-morning-easy/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "\u6795\u6c7a\u3081",
+    "problem_url": "https://atcoder.jp/contests/code-festival-2014-morning-easy/tasks/code_festival_morning_easy_d",
+    "submission_id": "AC12257460",
+    "submission_url": "https://atcoder.jp/contests/code-festival-2014-morning-easy/submissions/12257460",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/24/2020 02:25"
+  },
   "AC12279985": {
     "contest_id": "abc088",
     "language": "C++14 (GCC 5.4.1)",
