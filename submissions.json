@@ -1,4 +1,20 @@
 {
+  "AC12257142": {
+    "contest_id": "arc026",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc026/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "\u5b8c\u5168\u6570",
+    "problem_url": "https://atcoder.jp/contests/arc026/tasks/arc026_2",
+    "submission_id": "AC12257142",
+    "submission_url": "https://atcoder.jp/contests/arc026/submissions/12257142",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/24/2020 01:30"
+  },
   "AC12257460": {
     "contest_id": "code-festival-2014-morning-easy",
     "language": "C++14 (GCC 5.4.1)",
