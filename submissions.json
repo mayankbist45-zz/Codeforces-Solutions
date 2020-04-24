@@ -1,4 +1,20 @@
 {
+  "AC12281298": {
+    "contest_id": "cf16-final",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/cf16-final/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Interpretation",
+    "problem_url": "https://atcoder.jp/contests/cf16-final/tasks/codefestival_2016_final_c",
+    "submission_id": "AC12281298",
+    "submission_url": "https://atcoder.jp/contests/cf16-final/submissions/12281298",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/24/2020 23:30"
+  },
   "AC12281417": {
     "contest_id": "abc006",
     "language": "C++14 (GCC 5.4.1)",
