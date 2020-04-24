@@ -1,4 +1,20 @@
 {
+  "AC12281080": {
+    "contest_id": "abc080",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc080/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Recording",
+    "problem_url": "https://atcoder.jp/contests/abc080/tasks/abc080_d",
+    "submission_id": "AC12281080",
+    "submission_url": "https://atcoder.jp/contests/abc080/submissions/12281080",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/24/2020 23:09"
+  },
   "AC12281298": {
     "contest_id": "cf16-final",
     "language": "C++14 (GCC 5.4.1)",
