@@ -1,4 +1,20 @@
 {
+  "AC12279985": {
+    "contest_id": "abc088",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc088/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Grid Repainting",
+    "problem_url": "https://atcoder.jp/contests/abc088/tasks/abc088_d",
+    "submission_id": "AC12279985",
+    "submission_url": "https://atcoder.jp/contests/abc088/submissions/12279985",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/24/2020 21:38"
+  },
   "AC12280224": {
     "contest_id": "abc111",
     "language": "C++14 (GCC 5.4.1)",
