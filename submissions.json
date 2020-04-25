@@ -1,4 +1,20 @@
 {
+  "AC12307938": {
+    "contest_id": "abc141",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc141/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Powerful Discount Tickets",
+    "problem_url": "https://atcoder.jp/contests/abc141/tasks/abc141_d",
+    "submission_id": "AC12307938",
+    "submission_url": "https://atcoder.jp/contests/abc141/submissions/12307938",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/25/2020 21:40"
+  },
   "AC12308166": {
     "contest_id": "agc017",
     "language": "C++14 (GCC 5.4.1)",
