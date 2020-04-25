@@ -1,4 +1,20 @@
 {
+  "AC12309446": {
+    "contest_id": "abc114",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc114/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "756",
+    "problem_url": "https://atcoder.jp/contests/abc114/tasks/abc114_d",
+    "submission_id": "AC12309446",
+    "submission_url": "https://atcoder.jp/contests/abc114/submissions/12309446",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/25/2020 23:33"
+  },
   "AC12318589": {
     "contest_id": "arc102",
     "language": "C++14 (GCC 5.4.1)",
