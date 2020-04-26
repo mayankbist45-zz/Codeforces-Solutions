@@ -1,4 +1,20 @@
 {
+  "AC12407739": {
+    "contest_id": "abc164",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc164/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "gacha",
+    "problem_url": "https://atcoder.jp/contests/abc164/tasks/abc164_c",
+    "submission_id": "AC12407739",
+    "submission_url": "https://atcoder.jp/contests/abc164/submissions/12407739",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/26/2020 23:47"
+  },
   "AC12408211": {
     "contest_id": "abc164",
     "language": "C++ (GCC 9.2.1)",
