@@ -1,4 +1,20 @@
 {
+  "AC12318589": {
+    "contest_id": "arc102",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc102/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Triangular Relationship",
+    "problem_url": "https://atcoder.jp/contests/arc102/tasks/arc102_a",
+    "submission_id": "AC12318589",
+    "submission_url": "https://atcoder.jp/contests/arc102/submissions/12318589",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/26/2020 11:06"
+  },
   "AC12407739": {
     "contest_id": "abc164",
     "language": "C++ (GCC 9.2.1)",
