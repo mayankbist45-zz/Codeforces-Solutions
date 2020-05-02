@@ -1,4 +1,20 @@
 {
+  "AC12569579": {
+    "contest_id": "arc069",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc069/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Scc Puzzle",
+    "problem_url": "https://atcoder.jp/contests/arc069/tasks/arc069_a",
+    "submission_id": "AC12569579",
+    "submission_url": "https://atcoder.jp/contests/arc069/submissions/12569579",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/02/2020 13:37"
+  },
   "AC12569763": {
     "contest_id": "abc064",
     "language": "C++14 (GCC 5.4.1)",
