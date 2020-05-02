@@ -1,4 +1,20 @@
 {
+  "AC12570321": {
+    "contest_id": "agc031",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc031/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Colorful Subsequence",
+    "problem_url": "https://atcoder.jp/contests/agc031/tasks/agc031_a",
+    "submission_id": "AC12570321",
+    "submission_url": "https://atcoder.jp/contests/agc031/submissions/12570321",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/02/2020 13:58"
+  },
   "AC12571155": {
     "contest_id": "agc011",
     "language": "C++14 (GCC 5.4.1)",
