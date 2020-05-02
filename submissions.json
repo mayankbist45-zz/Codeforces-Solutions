@@ -1,4 +1,20 @@
 {
+  "AC12566704": {
+    "contest_id": "arc098",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc098/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Attention",
+    "problem_url": "https://atcoder.jp/contests/arc098/tasks/arc098_a",
+    "submission_id": "AC12566704",
+    "submission_url": "https://atcoder.jp/contests/arc098/submissions/12566704",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/02/2020 12:15"
+  },
   "AC12566825": {
     "contest_id": "dwacon5th-prelims",
     "language": "C++14 (GCC 5.4.1)",
