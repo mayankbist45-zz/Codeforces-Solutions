@@ -9,6 +9,7 @@ const int MOD = 1000000007;
 
 vector<int> primes;
 vector<bool> isPrime(maxn, true);
+int ans[maxn];
 
 void sieve(int n = maxn - 10) {
     isPrime[0] = isPrime[1] = false;
@@ -23,27 +24,29 @@ void sieve(int n = maxn - 10) {
 }
 
 void solve() {
-    sieve();
     int q;
     cin >> q;
 
-    vector<int> v(maxn);
-    for (int i = 3; i <= maxn - 10; i += 2) {
-        int b = (i + 1) / 2;
-        if ((b & 1 or b == 2) and isPrime[b] and isPrime[i])
-            v[i] = 1;
-    }
-    partial_sum(v.begin(), v.end(), v.begin());
     for (int i = 0; i < q; i++) {
-        int l, r;
-        cin >> l >> r;
-        cout << v[r] - v[l - 1] << endl;
+        int a, b;
+        cin >> a >> b;
+
+        cout << ans[b] - ans[a - 1] << endl;
     }
 }
 
 int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
+
+    sieve();
+    for (int i = 1; i <= maxn - 10; i++) {
+        if (i & 1) {
+            if (isPrime[i] and isPrime[(i + 1) / 2] and (((i + 1) / 2) % 2 != 0 or (i + 1) / 2 == 2))
+                ans[i] = 1;
+        }
+        ans[i] += ans[i - 1];
+    }
 
     int t = 1;
 //    cin >> t;
