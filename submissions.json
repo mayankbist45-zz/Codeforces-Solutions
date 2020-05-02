@@ -1,4 +1,20 @@
 {
+  "AC12568071": {
+    "contest_id": "agc034",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc034/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Kenken Race",
+    "problem_url": "https://atcoder.jp/contests/agc034/tasks/agc034_a",
+    "submission_id": "AC12568071",
+    "submission_url": "https://atcoder.jp/contests/agc034/submissions/12568071",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/02/2020 12:55"
+  },
   "AC12568943": {
     "contest_id": "abc084",
     "language": "C++14 (GCC 5.4.1)",
