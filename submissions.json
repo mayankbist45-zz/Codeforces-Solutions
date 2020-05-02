@@ -1,4 +1,20 @@
 {
+  "AC12566825": {
+    "contest_id": "dwacon5th-prelims",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/dwacon5th-prelims/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Thumbnail",
+    "problem_url": "https://atcoder.jp/contests/dwacon5th-prelims/tasks/dwacon5th_prelims_a",
+    "submission_id": "AC12566825",
+    "submission_url": "https://atcoder.jp/contests/dwacon5th-prelims/submissions/12566825",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/02/2020 12:19"
+  },
   "AC12567124": {
     "contest_id": "agc009",
     "language": "C++14 (GCC 5.4.1)",
