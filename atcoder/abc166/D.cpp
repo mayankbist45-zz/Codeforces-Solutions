@@ -11,8 +11,8 @@ void solve() {
     int x;
     cin >> x;
 
-    for (int b = -300; b <= 300; b++) {
-        for (int a = -300; a <= 300; a++) {
+    for (int b = -118; b <= 119; b++) {
+        for (int a = -118; a <= 119; a++) {
             int one = pow(abs(a), 5);
             int two = pow(abs(b), 5);
 
