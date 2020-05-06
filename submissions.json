@@ -1,4 +1,20 @@
 {
+  "AC12911052": {
+    "contest_id": "abc142",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc142/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Get Everything",
+    "problem_url": "https://atcoder.jp/contests/abc142/tasks/abc142_e",
+    "submission_id": "AC12911052",
+    "submission_url": "https://atcoder.jp/contests/abc142/submissions/12911052",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/07/2020 05:01"
+  },
   "AC12933433": {
     "contest_id": "nikkei2019-2-qual",
     "language": "C++14 (GCC 5.4.1)",
