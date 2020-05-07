@@ -1,4 +1,20 @@
 {
+  "AC12936982": {
+    "contest_id": "abc079",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc079/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Good Integer",
+    "problem_url": "https://atcoder.jp/contests/abc079/tasks/abc079_a",
+    "submission_id": "AC12936982",
+    "submission_url": "https://atcoder.jp/contests/abc079/submissions/12936982",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/07/2020 23:31"
+  },
   "AC12936998": {
     "contest_id": "abc138",
     "language": "C++14 (GCC 5.4.1)",
