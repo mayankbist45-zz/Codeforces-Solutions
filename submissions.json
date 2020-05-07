@@ -1,4 +1,20 @@
 {
+  "AC12937437": {
+    "contest_id": "diverta2019",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/diverta2019/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "AB Substrings",
+    "problem_url": "https://atcoder.jp/contests/diverta2019/tasks/diverta2019_c",
+    "submission_id": "AC12937437",
+    "submission_url": "https://atcoder.jp/contests/diverta2019/submissions/12937437",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/08/2020 00:26"
+  },
   "AC12937556": {
     "contest_id": "abc051",
     "language": "C++14 (GCC 5.4.1)",
