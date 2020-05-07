@@ -1,4 +1,20 @@
 {
+  "AC12936998": {
+    "contest_id": "abc138",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc138/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Red or Not",
+    "problem_url": "https://atcoder.jp/contests/abc138/tasks/abc138_a",
+    "submission_id": "AC12936998",
+    "submission_url": "https://atcoder.jp/contests/abc138/submissions/12936998",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/07/2020 23:33"
+  },
   "AC12937016": {
     "contest_id": "abc061",
     "language": "C++14 (GCC 5.4.1)",
