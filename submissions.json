@@ -1,4 +1,20 @@
 {
+  "AC12933433": {
+    "contest_id": "nikkei2019-2-qual",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/nikkei2019-2-qual/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Counting of Trees",
+    "problem_url": "https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b",
+    "submission_id": "AC12933433",
+    "submission_url": "https://atcoder.jp/contests/nikkei2019-2-qual/submissions/12933433",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/07/2020 20:16"
+  },
   "AC12935570": {
     "contest_id": "sumitrust2019",
     "language": "C++14 (GCC 5.4.1)",
