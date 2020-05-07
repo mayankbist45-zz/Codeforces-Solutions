@@ -1,4 +1,20 @@
 {
+  "AC12937726": {
+    "contest_id": "abc110",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc110/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "String Transformation",
+    "problem_url": "https://atcoder.jp/contests/abc110/tasks/abc110_c",
+    "submission_id": "AC12937726",
+    "submission_url": "https://atcoder.jp/contests/abc110/submissions/12937726",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/08/2020 01:08"
+  },
   "AC12938001": {
     "contest_id": "abc094",
     "language": "C++14 (GCC 5.4.1)",
