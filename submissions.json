@@ -1,4 +1,20 @@
 {
+  "AC12992261": {
+    "contest_id": "agc029",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc029/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Powers of two",
+    "problem_url": "https://atcoder.jp/contests/agc029/tasks/agc029_b",
+    "submission_id": "AC12992261",
+    "submission_url": "https://atcoder.jp/contests/agc029/submissions/12992261",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "May/09/2020 19:49"
+  },
   "AC13175799": {
     "contest_id": "diverta2019",
     "language": "C++14 (GCC 5.4.1)",
