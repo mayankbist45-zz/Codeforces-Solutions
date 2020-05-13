@@ -1,4 +1,9 @@
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+
+using namespace __gnu_pbds;
+#define ordered_set tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update>
 
 using namespace std;
 
@@ -7,21 +12,21 @@ using namespace std;
 #define maxn 100010
 const int MOD = 1000000007;
 
-int st(int a, int b) {
-    return max(to_string(a).size(), to_string(b).size());
-}
-
 void solve() {
     int n;
     cin >> n;
-    int ans = LLONG_MAX;
-    for (int i = 1; i * i <= n; i++) {
-        if (n % i == 0) {
-            int a = i, b = n / i;
-            ans = min(ans, st(a, b));
+
+    auto get = [](int a,int b)->int{
+        return max(to_string(a).size(), to_string(b).size());
+    };
+
+    int mn = LLONG_MAX;
+    for(int i = 1; i * i <= n; i++){
+        if(n % i == 0){
+            mn = min(mn, get(i, n/i));
         }
     }
-    cout << ans << endl;
+    cout << mn << endl;
 }
 
 int32_t main() {
