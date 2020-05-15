@@ -1,4 +1,20 @@
 {
+  "AC13228534": {
+    "contest_id": "abc123",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc123/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Five Transportations",
+    "problem_url": "https://atcoder.jp/contests/abc123/tasks/abc123_c",
+    "submission_id": "AC13228534",
+    "submission_url": "https://atcoder.jp/contests/abc123/submissions/13228534",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/15/2020 15:41"
+  },
   "AC13228755": {
     "contest_id": "abc156",
     "language": "C++14 (GCC 5.4.1)",
