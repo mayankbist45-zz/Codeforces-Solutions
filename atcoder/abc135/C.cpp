@@ -7,28 +7,35 @@ using namespace std;
 #define maxn 100010
 const int MOD = 1000000007;
 
-int destroy(int &mons, int &hp) {
-    int mn = min(mons, hp);
-    mons -= mn;
-    hp -= mn;
-    return mn;
-}
-
 void solve() {
     int n;
     cin >> n;
 
-    vector<int> v(n + 2), b(n + 1);
-    for (int i = 0; i < n + 1; i++)cin >> v[i];
-    for (int i = 0; i < n; ++i) {
-        cin >> b[i];
+    vector<int> v(n + 1), h(n);
+    for (int i = 0; i < n + 1; ++i) {
+        cin >> v[i];
     }
-    int ans = 0;
-    for (int i = n - 1; i >= 0; i--) {
-        ans += destroy(v[i + 1], b[i]);
-        ans += destroy(v[i], b[i]);
+    int ans = accumulate(v.begin(), v.end(), 0ll);
+    for (int i = 0; i < n; i++) {
+        cin >> h[i];
+
+        if (h[i] >= v[i]) {
+            h[i] -= v[i];
+            v[i] = 0;
+        } else {
+            v[i] = v[i] - h[i];
+            h[i] = 0;
+        }
+
+        if (h[i] >= v[i + 1]) {
+            h[i] -= v[i + 1];
+            v[i + 1] = 0;
+        } else {
+            v[i + 1] = v[i + 1] - h[i];
+            h[i] = 0;
+        }
     }
-    cout << ans << endl;
+    cout << ans - accumulate(v.begin(), v.end(), 0ll) << endl;
 }
 
 int32_t main() {
