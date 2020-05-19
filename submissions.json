@@ -1,4 +1,20 @@
 {
+  "AC13396841": {
+    "contest_id": "abc139",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc139/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Lower",
+    "problem_url": "https://atcoder.jp/contests/abc139/tasks/abc139_c",
+    "submission_id": "AC13396841",
+    "submission_url": "https://atcoder.jp/contests/abc139/submissions/13396841",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/19/2020 11:49"
+  },
   "AC13396962": {
     "contest_id": "abc138",
     "language": "C++14 (GCC 5.4.1)",
