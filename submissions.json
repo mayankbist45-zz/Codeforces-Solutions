@@ -1,4 +1,20 @@
 {
+  "AC13452520": {
+    "contest_id": "abc160",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc160/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Red and Green Apples",
+    "problem_url": "https://atcoder.jp/contests/abc160/tasks/abc160_e",
+    "submission_id": "AC13452520",
+    "submission_url": "https://atcoder.jp/contests/abc160/submissions/13452520",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/21/2020 15:36"
+  },
   "AC13455015": {
     "contest_id": "abc128",
     "language": "C++14 (GCC 5.4.1)",
