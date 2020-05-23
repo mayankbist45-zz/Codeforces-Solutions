@@ -1,4 +1,20 @@
 {
+  "AC13513163": {
+    "contest_id": "abc099",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc099/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Strange Bank",
+    "problem_url": "https://atcoder.jp/contests/abc099/tasks/abc099_c",
+    "submission_id": "AC13513163",
+    "submission_url": "https://atcoder.jp/contests/abc099/submissions/13513163",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/23/2020 11:21"
+  },
   "AC13514156": {
     "contest_id": "arc062",
     "language": "C++14 (GCC 5.4.1)",
