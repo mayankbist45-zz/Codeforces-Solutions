@@ -1,4 +1,20 @@
 {
+  "AC13521093": {
+    "contest_id": "dwacon5th-prelims",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/dwacon5th-prelims/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Sum AND Subarrays",
+    "problem_url": "https://atcoder.jp/contests/dwacon5th-prelims/tasks/dwacon5th_prelims_b",
+    "submission_id": "AC13521093",
+    "submission_url": "https://atcoder.jp/contests/dwacon5th-prelims/submissions/13521093",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/23/2020 12:33"
+  },
   "AC13540226": {
     "contest_id": "arc074",
     "language": "C++14 (GCC 5.4.1)",
