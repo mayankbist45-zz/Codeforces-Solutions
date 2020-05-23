@@ -1,4 +1,20 @@
 {
+  "AC13540226": {
+    "contest_id": "arc074",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc074/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "3N Numbers",
+    "problem_url": "https://atcoder.jp/contests/arc074/tasks/arc074_b",
+    "submission_id": "AC13540226",
+    "submission_url": "https://atcoder.jp/contests/arc074/submissions/13540226",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/23/2020 18:36"
+  },
   "AC13542864": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
