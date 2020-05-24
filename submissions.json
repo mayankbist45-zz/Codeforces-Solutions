@@ -1,4 +1,20 @@
 {
+  "AC13561942": {
+    "contest_id": "abc104",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc104/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "All Green",
+    "problem_url": "https://atcoder.jp/contests/abc104/tasks/abc104_c",
+    "submission_id": "AC13561942",
+    "submission_url": "https://atcoder.jp/contests/abc104/submissions/13561942",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/24/2020 11:24"
+  },
   "AC13562233": {
     "contest_id": "abc070",
     "language": "C++14 (GCC 5.4.1)",
