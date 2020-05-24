@@ -1,4 +1,20 @@
 {
+  "AC13563310": {
+    "contest_id": "agc019",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/agc019/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Reverse and Compare",
+    "problem_url": "https://atcoder.jp/contests/agc019/tasks/agc019_b",
+    "submission_id": "AC13563310",
+    "submission_url": "https://atcoder.jp/contests/agc019/submissions/13563310",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/24/2020 11:59"
+  },
   "AC13589413": {
     "contest_id": "agc023",
     "language": "C++14 (GCC 5.4.1)",
