@@ -1,4 +1,20 @@
 {
+  "AC13613879": {
+    "contest_id": "abc134",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc134/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Sequence Decomposing",
+    "problem_url": "https://atcoder.jp/contests/abc134/tasks/abc134_e",
+    "submission_id": "AC13613879",
+    "submission_url": "https://atcoder.jp/contests/abc134/submissions/13613879",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/26/2020 12:26"
+  },
   "AC13614396": {
     "contest_id": "abc151",
     "language": "C++14 (GCC 5.4.1)",
