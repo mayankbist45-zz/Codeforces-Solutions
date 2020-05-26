@@ -16,21 +16,29 @@ void solve() {
 
     vector<int> pf, sf;
     int d = 1;
-    for (int i = 0; i < n; i++) {
-        if (s[i] == 'o')pf.push_back(i + 1), d++, i += c;
+    for (int i = 0; i < n;) {
+        if (s[i] == 'o')pf.push_back(i + 1), d++, i += c + 1;
+        else if (s[i] == 'x') {
+            i++;
+            continue;
+        }
         if (d == k + 1)break;
     }
 //    for(auto x: pf)cout << x << endl;
     d = k;
-    for (int i = n - 1; i >= 0; i--) {
-        if (s[i] == 'o')sf.push_back(i + 1), d--, i -= c;
+    for (int i = n - 1; i >= 0;) {
+        if (s[i] == 'o')sf.push_back(i + 1), d--, i -= (c + 1);
+        else if (s[i] == 'x') {
+            i--;
+            continue;
+        }
         if (d == 0)break;
     }
 //    for(auto x: sf)cout << x << endl;
 
     reverse(sf.begin(), sf.end());
     for (int i = 0; i < sf.size(); i++) {
-        if (sf[i] == pf[i])cout << sf[i] << endl;
+        if(sf[i] == pf[i])cout << sf[i] << endl;
     }
 }
 
