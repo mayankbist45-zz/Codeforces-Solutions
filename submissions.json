@@ -1,4 +1,20 @@
 {
+  "AC13612723": {
+    "contest_id": "abc131",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/abc131/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Friendships",
+    "problem_url": "https://atcoder.jp/contests/abc131/tasks/abc131_e",
+    "submission_id": "AC13612723",
+    "submission_url": "https://atcoder.jp/contests/abc131/submissions/13612723",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/26/2020 11:20"
+  },
   "AC13613140": {
     "contest_id": "abc133",
     "language": "C++14 (GCC 5.4.1)",
