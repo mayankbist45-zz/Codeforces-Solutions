@@ -1,4 +1,20 @@
 {
+  "AC13949729": {
+    "contest_id": "arc093",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/arc093/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Grid Components",
+    "problem_url": "https://atcoder.jp/contests/arc093/tasks/arc093_b",
+    "submission_id": "AC13949729",
+    "submission_url": "https://atcoder.jp/contests/arc093/submissions/13949729",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/02/2020 14:40"
+  },
   "AC13972088": {
     "contest_id": "abc057",
     "language": "C++14 (GCC 5.4.1)",
