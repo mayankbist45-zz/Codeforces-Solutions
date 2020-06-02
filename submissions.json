@@ -1,4 +1,20 @@
 {
+  "AC13944702": {
+    "contest_id": "tenka1-2019-beginner",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder/tenka1-2019-beginner/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Stones",
+    "problem_url": "https://atcoder.jp/contests/tenka1-2019-beginner/tasks/tenka1_2019_c",
+    "submission_id": "AC13944702",
+    "submission_url": "https://atcoder.jp/contests/tenka1-2019-beginner/submissions/13944702",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/02/2020 10:55"
+  },
   "AC13944861": {
     "contest_id": "abc113",
     "language": "C++14 (GCC 5.4.1)",
