@@ -1,4 +1,20 @@
 {
+  "AC14487750": {
+    "contest_id": "abc067",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc067/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Fennec VS. Snuke",
+    "problem_url": "https://atcoder.jp/contests/abc067/tasks/arc078_b",
+    "submission_id": "AC14487750",
+    "submission_url": "https://atcoder.jp/contests/abc067/submissions/14487750",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/20/2020 11:55"
+  },
   "AC15288391": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
