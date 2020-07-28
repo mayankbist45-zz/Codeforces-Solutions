@@ -10,16 +10,24 @@ const int MOD = 1000000007;
 int v[maxn];
 int dp[maxn][maxn];
 
+int solve(int l, int r) {
+    if (l > r)return 0;
+    int &ans = dp[l][r];
+    if (ans != -1)return ans;
+    ans = v[l] - solve(l + 1, r);
+    ans = max(ans, v[r] - solve(l, r - 1));
+    return ans;
+}
+
 void solve() {
+    memset(dp, -1, sizeof dp);
     int n;
     cin >> n;
-    for (int i = 1; i <= n; ++i)cin >> v[i];
-    for (int i = n; i >= 1; i--)
-        for (int j = i; j <= n; j++) {
-            if (i == j)dp[i][j] = v[i];
-            else dp[i][j] = max(v[i] - dp[i + 1][j], v[j] - dp[i][j - 1]);
-        }
-    cout << dp[1][n] << endl;
+
+    for (int i = 0; i < n; ++i) {
+        cin >> v[i];
+    }
+    cout << solve(0, n - 1) << endl;
 }
 
 int32_t main() {
