@@ -1,4 +1,20 @@
 {
+  "AC15504888": {
+    "contest_id": "dp",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/dp/R.cpp",
+    "platform": "AtCoder",
+    "problem_index": "R",
+    "problem_name": "Walk",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_r",
+    "submission_id": "AC15504888",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/15504888",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/28/2020 17:05"
+  },
   "AC15520382": {
     "contest_id": "nomura2020",
     "language": "C++ (GCC 9.2.1)",
