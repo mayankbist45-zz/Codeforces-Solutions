@@ -1,4 +1,20 @@
 {
+  "AC15520382": {
+    "contest_id": "nomura2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/nomura2020/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Postdocs",
+    "problem_url": "https://atcoder.jp/contests/nomura2020/tasks/nomura2020_b",
+    "submission_id": "AC15520382",
+    "submission_url": "https://atcoder.jp/contests/nomura2020/submissions/15520382",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/29/2020 15:19"
+  },
   "AC15520562": {
     "contest_id": "abc117",
     "language": "C++ (GCC 9.2.1)",
