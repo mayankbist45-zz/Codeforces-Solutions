@@ -1,4 +1,20 @@
 {
+  "AC15532953": {
+    "contest_id": "caddi2018",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/caddi2018/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Harlequin",
+    "problem_url": "https://atcoder.jp/contests/caddi2018/tasks/caddi2018_b",
+    "submission_id": "AC15532953",
+    "submission_url": "https://atcoder.jp/contests/caddi2018/submissions/15532953",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/30/2020 11:46"
+  },
   "AC15533213": {
     "contest_id": "agc038",
     "language": "C++ (GCC 9.2.1)",
