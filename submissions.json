@@ -349,6 +349,23 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF88572004": {
+    "contest_id": 23,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/23/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Party",
+    "problem_url": "https://codeforces.com/contest/23/problem/B",
+    "submission_id": "CF88572004",
+    "submission_url": "https://codeforces.com/contest/23/submission/88572004",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jul/31/2020 13:48"
+  },
   "CF88637191": {
     "contest_id": 837,
     "language": "GNU C++17 (64)",
