@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF88659108": {
+    "contest_id": 559,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/559/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Gerald and Giant Chess",
+    "problem_url": "https://codeforces.com/contest/559/problem/C",
+    "submission_id": "CF88659108",
+    "submission_url": "https://codeforces.com/contest/559/submission/88659108",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Aug/01/2020 16:50"
+  },
   "CF88662983": {
     "contest_id": 1372,
     "language": "GNU C++17 (64)",
