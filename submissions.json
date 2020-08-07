@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF89248700": {
+    "contest_id": 1393,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1393/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pinkie Pie Eats Patty-cakes",
+    "problem_url": "https://codeforces.com/contest/1393/problem/C",
+    "submission_id": "CF89248700",
+    "submission_url": "https://codeforces.com/contest/1393/submission/89248700",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Aug/07/2020 21:04"
+  },
   "CF89309056": {
     "contest_id": 1399,
     "language": "GNU C++17 (64)",
