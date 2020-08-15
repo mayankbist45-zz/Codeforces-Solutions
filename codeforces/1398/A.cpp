@@ -1,41 +1,3 @@
-//#include <bits/stdc++.h>
-//
-//using namespace std;
-//
-//#define int long long
-//#define endl '\n'
-//#define maxn 210
-//const int MOD = 1000000007;
-//
-//int dp[maxn][maxn][maxn];
-//void solve() {
-//    int r, g, b;
-//    cin >> r >> g >> b;
-//
-//    vector<int> R(r), G(g), B(b);
-//    for (int i = 0; i < r; i++)cin >> R[i];
-//    for (int i = 0; i < g; i++)cin >> G[i];
-//    for (int i = 0; i < b; i++)cin >> B[i];
-//
-//    sort(R.rbegin(), R.rend());
-//    sort(G.rbegin(), G.rend());
-//    sort(B.rbegin(), B.rend());
-//
-//    
-//}
-//
-//int32_t main() {
-//    ios_base::sync_with_stdio(false);
-//    cin.tie(nullptr);
-//
-//    int t = 1;
-////    cin >> t;
-//
-//    while (t--)
-//        solve();
-//    return 0;
-//}
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -49,11 +11,13 @@ void solve() {
     int n;
     cin >> n;
 
-    vector<int> v(n);
+    vector<pair<int, int>> v(n);
     for (int i = 0; i < n; ++i) {
-        cin >> v[i];
+        cin >> v[i].first;
+        v[i].second = i + 1;
     }
-    if (v[0] + v[1] <= v.back())cout << 1 << " " << 2 << " " << v.size();
+    sort(v.begin(), v.end());
+    if (v[0].first + v[1].first <= v.back().first)cout << v[0].second << " " << v[1].second << " " << v.back().second;
     else cout << -1;
     cout << endl;
 }
