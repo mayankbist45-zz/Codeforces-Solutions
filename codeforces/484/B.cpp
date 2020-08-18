@@ -16,14 +16,15 @@ void solve() {
     }
     int ans = 0;
     sort(v.begin(), v.end());
+    map<int, int> mp;
     int tp = v.back();
-    for (int i = n - 1; i >= 0; i--) {
-        if (v[i] - 1 <= ans)break;
-        if(i + 1 < n and v[i] == v[i + 1])continue;
-        for (int j = 2 * v[i]; j < tp + v[i]; j += v[i]) {
+    for (int i = 0; i < n; i++) {
+        if (mp.count(v[i]))continue;
+        for (int j = 2 * v[i]; j <= 2 * tp; j += v[i]) {
             int zp = lower_bound(v.begin(), v.end(), j) - v.begin();
             ans = max(ans, v[zp - 1] % v[i]);
         }
+        mp[v[i]] = 1;
     }
     cout << ans << endl;
 }
