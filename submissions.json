@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF90757389": {
+    "contest_id": 220,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/220/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Elephant and Array",
+    "problem_url": "https://codeforces.com/contest/220/problem/B",
+    "submission_id": "CF90757389",
+    "submission_url": "https://codeforces.com/contest/220/submission/90757389",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "*1800"
+    ],
+    "timestamp": "Aug/23/2020 18:37"
+  },
   "CF90798019": {
     "contest_id": 1395,
     "language": "GNU C++17 (64)",
