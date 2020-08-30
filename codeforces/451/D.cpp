@@ -26,7 +26,7 @@ void solve() {
         if (i & 1)od[s[i]]++;
         else ev[s[i]]++;
     }
-    cout << even - 1 + 1 << " " << odd << endl;
+    cout << even << " " << odd << endl;
 }
 
 int32_t main() {
