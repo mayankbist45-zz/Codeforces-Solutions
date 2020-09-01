@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF91572379": {
+    "contest_id": 375,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/375/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Maximum Submatrix 2",
+    "problem_url": "https://codeforces.com/contest/375/problem/B",
+    "submission_id": "CF91572379",
+    "submission_url": "https://codeforces.com/contest/375/submission/91572379",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Sep/01/2020 19:38"
+  },
   "CF91578794": {
     "contest_id": 271,
     "language": "GNU C++17 (64)",
