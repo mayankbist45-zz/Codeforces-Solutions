@@ -20,7 +20,7 @@ void solve() {
         for (int j = i; j < a.size(); j++) {
             ct += b[a[j] - 'a'] == '0';
             if (ct > k)break;
-            val = val * 53 + a[j];
+            val = val * 117 + a[j];
             hash[j - i + 1].insert(val);
         }
     }
