@@ -7,38 +7,28 @@ using namespace std;
 #define maxn 200010
 const int MOD = 1000000007;
 
-int sz[maxn], dp[maxn], n;
+int sz[maxn], n;
 vector<int> g[maxn];
 
-void dfs(int u, int p = -1) {
+int in[maxn], out[maxn], ans = 0;
+
+void dfs1(int u, int p = -1) {
     sz[u] = 1;
     for (auto x : g[u]) {
         if (x == p)continue;
-        dfs(x, u);
+        dfs1(x, u);
         sz[u] += sz[x];
-        dp[u] += dp[x];
+        in[u] += in[x];
     }
-    dp[u] += sz[u];
+    in[u] += sz[u];
 }
 
-void change_root(int u, int v) {
-    dp[u] -= dp[v];
-    dp[u] -= sz[v];
-    sz[u] -= sz[v];
-    sz[v] += sz[u];
-    dp[v] += sz[u];
-    dp[v] += dp[u];
-}
-
-int ans = 0;
-
-void walk(int u, int p = -1) {
-    ans = max(ans, dp[u]);
-    for (auto x: g[u]) {
-        if (x == p) continue;
-        change_root(u, x);
-        walk(x, u);
-        change_root(x, u);
+void dfs2(int u, int p = -1) {
+    ans = max(ans, out[u] + in[u] + n - sz[u]);
+    for (auto x :g[u]) {
+        if (x == p)continue;
+        out[x] = out[u] + in[u] - in[x] - sz[x] + (n - sz[u]);
+        dfs2(x, u);
     }
 }
 
@@ -50,8 +40,8 @@ void solve() {
         g[a].push_back(b);
         g[b].push_back(a);
     }
-    dfs(1);
-    walk(1);
+    dfs1(1);
+    dfs2(1);
     cout << ans << endl;
 }
 
