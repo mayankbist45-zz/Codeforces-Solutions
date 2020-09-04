@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF91775329": {
+    "contest_id": 407,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/407/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Long Path",
+    "problem_url": "https://codeforces.com/contest/407/problem/B",
+    "submission_id": "CF91775329",
+    "submission_url": "https://codeforces.com/contest/407/submission/91775329",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Sep/04/2020 13:30"
+  },
   "CF91776139": {
     "contest_id": 442,
     "language": "GNU C++17 (64)",
