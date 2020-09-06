@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF91994663": {
+    "contest_id": 77,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/77/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Falling Anvils",
+    "problem_url": "https://codeforces.com/contest/77/problem/B",
+    "submission_id": "CF91994663",
+    "submission_url": "https://codeforces.com/contest/77/submission/91994663",
+    "tags": [
+      "math",
+      "probabilities",
+      "*1800"
+    ],
+    "timestamp": "Sep/06/2020 13:22"
+  },
   "CF92001927": {
     "contest_id": 321,
     "language": "GNU C++17 (64)",
