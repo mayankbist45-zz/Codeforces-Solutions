@@ -10,22 +10,8 @@ const int MOD = 1000000007;
 vector<int> g[maxn];
 int v[maxn], n;
 
-template<class T>
-T gcd(T a, T b) {
-    T t;
-    while (a) {
-        t = a;
-        a = b % a;
-        b = t;
-    }
-    return b;
-}
-
-int Lcm(int x, int y) {
-    int g = gcd(x, y);
-    if (1.0 * x * y / g > 1e14)
-        return 1e14;
-    return x / g * y;
+int Lcm(int a, int b) {
+    return a / __gcd(a, b) * b;
 }
 
 pair<int, int> dfs(int u, int p = -1) {
@@ -40,7 +26,7 @@ pair<int, int> dfs(int u, int p = -1) {
     if (res.empty())return {v[u], 1};
     int mn = LLONG_MAX;
     for (auto x: res) mn = min(mn, x.first / lc * lc);
-    return {mn * (int) res.size(), (int) res.size() * lc};
+    return {mn * (int) res.size(), max(1ll, (int) res.size() * lc)};
 }
 
 void solve() {

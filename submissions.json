@@ -349,6 +349,23 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF92018892": {
+    "contest_id": 348,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/348/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Apple Tree",
+    "problem_url": "https://codeforces.com/contest/348/problem/B",
+    "submission_id": "CF92018892",
+    "submission_url": "https://codeforces.com/contest/348/submission/92018892",
+    "tags": [
+      "dfs and similar",
+      "number theory",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Sep/06/2020 19:06"
+  },
   "CF92020075": {
     "contest_id": 348,
     "language": "GNU C++17 (64)",
