@@ -26,8 +26,8 @@ void solve() {
 
     dp[0][0][0] = 0;
     for (int i = 0; i < a.size(); i++) {
-        for (int j = 0; j <= n; j++) {
-            for (int k = 0; k <= kk; k++) {
+        for (int k = 0; k <= kk; k++) {
+            for (int j = 0; j <= n; j++) {
                 if (dp[i][j][k] == -1)continue;
                 max_self(dp[i + 1][j + (a[i] == b[0])][k], dp[i][j][k] + (a[i] == b[1] ? j : 0));
                 //change to b0
