@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF92140314": {
+    "contest_id": 229,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/229/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Planets",
+    "problem_url": "https://codeforces.com/contest/229/problem/B",
+    "submission_id": "CF92140314",
+    "submission_url": "https://codeforces.com/contest/229/submission/92140314",
+    "tags": [
+      "binary search",
+      "data structures",
+      "graphs",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Sep/07/2020 19:25"
+  },
   "CF92191771": {
     "contest_id": 35,
     "language": "GNU C++17 (64)",
