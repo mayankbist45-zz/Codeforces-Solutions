@@ -17,7 +17,10 @@ void solve() {
         cin >> v[i];
         ct += v[i] == 1;
     }
-
+    if (n == 2 and ct == 1) {
+        cout << 1 << endl << 0 << endl;
+        return;
+    }
     if (ct > n / 2) {
         cout << n / 2 + (n / 2 & 1) << endl;
         for (int i = 1; i <= n / 2; i++)cout << 1 << " ";
