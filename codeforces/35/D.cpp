@@ -14,27 +14,20 @@ void setIO() {
     freopen("output.txt", "w", stdout);
 }
 
-int c[maxn], n, x, dp[101][10010];
-
-int solve(int pos, int val) {
-    if (pos == n)return 0;
-    int &ans = dp[pos][val];
-    if (ans != -1)return ans;
-    ans = solve(pos + 1, val);
-    if (val + c[pos] <= x)
-        ans = max(ans, 1 + solve(pos + 1, val + c[pos]));
-    return ans;
-}
+int c[maxn], n, x;
 
 void solve() {
-    memset(dp, -1, sizeof dp);
     cin >> n >> x;
 
     for (int i = 0; i < n; ++i) {
         cin >> c[i];
         c[i] = (n - i) * c[i];
     }
-    cout << solve(0, 0) << endl;
+    sort(c, c + n);
+    int id = 0, pos = 0;
+    while (pos < n and c[pos] + id <= x)
+        id += c[pos], pos++;
+    cout << pos << endl;
 }
 
 int32_t main() {
