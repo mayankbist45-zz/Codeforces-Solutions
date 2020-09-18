@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF93106638": {
+    "contest_id": 160,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/160/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Edges in MST",
+    "problem_url": "https://codeforces.com/contest/160/problem/D",
+    "submission_id": "CF93106638",
+    "submission_url": "https://codeforces.com/contest/160/submission/93106638",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Sep/18/2020 15:36"
+  },
   "CF93108559": {
     "contest_id": 362,
     "language": "GNU C++17 (64)",
