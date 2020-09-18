@@ -349,6 +349,25 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF93108559": {
+    "contest_id": 362,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/362/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Fools and Foolproof Roads",
+    "problem_url": "https://codeforces.com/contest/362/problem/D",
+    "submission_id": "CF93108559",
+    "submission_url": "https://codeforces.com/contest/362/submission/93108559",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Sep/18/2020 16:07"
+  },
   "CF93118961": {
     "contest_id": 167,
     "language": "GNU C++17 (64)",
