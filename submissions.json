@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF93760201": {
+    "contest_id": 346,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/346/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lucky Common Subsequence",
+    "problem_url": "https://codeforces.com/contest/346/problem/B",
+    "submission_id": "CF93760201",
+    "submission_url": "https://codeforces.com/contest/346/submission/93760201",
+    "tags": [
+      "dp",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Sep/25/2020 12:54"
+  },
   "CF94085063": {
     "contest_id": 1426,
     "language": "GNU C++17 (64)",
