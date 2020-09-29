@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF94218233": {
+    "contest_id": 920,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/920/F.cpp",
+    "problem_index": "F",
+    "problem_name": "SUM and REPLACE",
+    "problem_url": "https://codeforces.com/contest/920/problem/F",
+    "submission_id": "CF94218233",
+    "submission_url": "https://codeforces.com/contest/920/submission/94218233",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dsu",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Sep/29/2020 19:45"
+  },
   "CF94711190": {
     "contest_id": 1422,
     "language": "GNU C++17 (64)",
