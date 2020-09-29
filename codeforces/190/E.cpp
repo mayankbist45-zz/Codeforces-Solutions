@@ -6,7 +6,7 @@ using namespace std;
 #define maxn 500010
 const int MOD = 1000000007;
 
-unordered_set<int> st;
+set<int> st;
 vector<int> g[maxn];
 int n, m;
 vector<vector<int>> comp;
