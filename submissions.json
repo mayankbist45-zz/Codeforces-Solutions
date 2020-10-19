@@ -349,6 +349,27 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF96015272": {
+    "contest_id": 1307,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1307/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cow and Fields",
+    "problem_url": "https://codeforces.com/contest/1307/problem/D",
+    "submission_id": "CF96015272",
+    "submission_url": "https://codeforces.com/contest/1307/submission/96015272",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Oct/20/2020 00:34"
+  },
   "CF96042440": {
     "contest_id": 1303,
     "language": "GNU C++17 (64)",
