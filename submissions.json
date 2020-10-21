@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF96225828": {
+    "contest_id": 463,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/463/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Gargari and Permutations",
+    "problem_url": "https://codeforces.com/contest/463/problem/D",
+    "submission_id": "CF96225828",
+    "submission_url": "https://codeforces.com/contest/463/submission/96225828",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Oct/21/2020 14:43"
+  },
   "CF96338853": {
     "contest_id": 1238,
     "language": "GNU C++17 (64)",
