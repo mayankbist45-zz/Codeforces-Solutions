@@ -1,4 +1,20 @@
 {
+  "AC17659019": {
+    "contest_id": "abc169",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc169/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Knapsack for All Subsets",
+    "problem_url": "https://atcoder.jp/contests/abc169/tasks/abc169_f",
+    "submission_id": "AC17659019",
+    "submission_url": "https://atcoder.jp/contests/abc169/submissions/17659019",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Oct/25/2020 18:54"
+  },
   "AC17732872": {
     "contest_id": "abc101",
     "language": "C++ (GCC 9.2.1)",
