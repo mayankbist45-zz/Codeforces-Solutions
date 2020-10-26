@@ -349,6 +349,21 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF96790355": {
+    "contest_id": 607,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/607/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Zuma",
+    "problem_url": "https://codeforces.com/contest/607/problem/B",
+    "submission_id": "CF96790355",
+    "submission_url": "https://codeforces.com/contest/607/submission/96790355",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Oct/26/2020 20:36"
+  },
   "CF96799960": {
     "contest_id": 1251,
     "language": "GNU C++17 (64)",
