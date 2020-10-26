@@ -3,7 +3,7 @@
 using namespace std;
 #define int long long
 #define endl '\n'
-#define maxn 1000010
+#define maxn 2000010
 const int MOD = 1000000007;
 
 inline int64_t gilbertOrder(int x, int y, int pow, int rotate) {
@@ -35,7 +35,7 @@ inline bool operator<(const Query &a, const Query &b) {
 }
 
 int ans, k, pre[maxn], answer[maxn];
-int cnt[2 * maxn];
+unordered_map<int,int> cnt;
 void remove(int a) {
     cnt[pre[a]]--;
     ans -= cnt[pre[a] ^ k];;
