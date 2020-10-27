@@ -17,7 +17,7 @@ void solve() {
         if (s[i] == '1') {
             int j = i;
             while (j + 1 < s.size() and s[j + 1] == '1')j++;
-            if (j - i + 1 > 1)ans += j - i;
+            ans += j - i;
             i = j;
         }
     }
@@ -25,7 +25,7 @@ void solve() {
         if (s[i] == '0') {
             int j = i;
             while (j + 1 < s.size() and s[j + 1] == '0')j++;
-            if (j - i + 1 > 1)ans2 += j - i;
+            ans2 += j - i;
             i = j;
         }
     }
