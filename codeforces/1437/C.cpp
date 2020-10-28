@@ -7,23 +7,29 @@ using namespace std;
 #define maxn 100010
 const int MOD = 1000000007;
 
-void solve() {
-    int n;
-    cin >> n;
+int n;
+vector<int> v;
+vector<vector<int>> dp;
+int solve(int pos, int val) {
+    if (pos == n)return 0;
+    if (val > 400)return INT_MAX;
 
-    vector<int> v(n);
-    vector<vector<int>> dp(n + 1, vector<int>(410, 1e14));
-    for (int i = 0; i < n; ++i) cin >> v[i];
-    sort(v.begin(), v.end());
-    dp[0][0] = 0;
-    for (int i = 0; i <= n; i++) {
-        for (int j = 1; j <= 400; j++) {
-            dp[i][j] = min(dp[i][j], dp[i][j - 1]);
-            if (i != 0)
-                dp[i][j] = min(dp[i][j], abs(v[i - 1] - j) + dp[i - 1][j - 1]);
-        }
+    int &ans = dp[pos][val];
+    if (ans != -1)return ans;
+    ans = solve(pos, val + 1);
+    ans = min(ans, abs(v[pos] - val) + solve(pos + 1, val + 1));
+    return ans;
+}
+
+void solve() {
+    cin >> n;
+    dp = vector<vector<int>>(n + 1, vector<int>(410, -1));
+    v = vector<int>(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> v[i];
     }
-    cout << dp[n][400] << endl;
+    sort(v.begin(), v.end());
+    cout << solve(0, 1) << endl;
 }
 
 int32_t main() {
