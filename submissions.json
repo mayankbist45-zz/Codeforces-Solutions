@@ -1,4 +1,20 @@
 {
+  "AC17732872": {
+    "contest_id": "abc101",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc101/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Digit Sums",
+    "problem_url": "https://atcoder.jp/contests/abc101/tasks/abc101_b",
+    "submission_id": "AC17732872",
+    "submission_url": "https://atcoder.jp/contests/abc101/submissions/17732872",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/30/2020 16:32"
+  },
   "AC17732885": {
     "contest_id": "abc151",
     "language": "C++ (GCC 9.2.1)",
