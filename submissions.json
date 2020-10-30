@@ -1,4 +1,20 @@
 {
+  "AC17734090": {
+    "contest_id": "agc024",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc024/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Backfront",
+    "problem_url": "https://atcoder.jp/contests/agc024/tasks/agc024_b",
+    "submission_id": "AC17734090",
+    "submission_url": "https://atcoder.jp/contests/agc024/submissions/17734090",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Oct/30/2020 17:41"
+  },
   "AC17765550": {
     "contest_id": "arc107",
     "language": "C++ (GCC 9.2.1)",
