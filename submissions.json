@@ -349,6 +349,24 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF97141030": {
+    "contest_id": 1270,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1270/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Strange Device",
+    "problem_url": "https://codeforces.com/contest/1270/problem/D",
+    "submission_id": "CF97141030",
+    "submission_url": "https://codeforces.com/contest/1270/submission/97141030",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Oct/30/2020 11:07"
+  },
   "CF97142739": {
     "contest_id": 710,
     "language": "GNU C++17 (64)",
