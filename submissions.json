@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF97142739": {
+    "contest_id": 710,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/710/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Generate a String",
+    "problem_url": "https://codeforces.com/contest/710/problem/E",
+    "submission_id": "CF97142739",
+    "submission_url": "https://codeforces.com/contest/710/submission/97142739",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Oct/30/2020 11:39"
+  },
   "CF97150914": {
     "contest_id": 1383,
     "language": "GNU C++17 (64)",
