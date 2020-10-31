@@ -1,4 +1,20 @@
 {
+  "AC17765550": {
+    "contest_id": "arc107",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc107/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Simple Math",
+    "problem_url": "https://atcoder.jp/contests/arc107/tasks/arc107_a",
+    "submission_id": "AC17765550",
+    "submission_url": "https://atcoder.jp/contests/arc107/submissions/17765550",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/31/2020 21:14"
+  },
   "AC18304674": {
     "contest_id": "abc184",
     "language": "C++ (GCC 9.2.1)",
