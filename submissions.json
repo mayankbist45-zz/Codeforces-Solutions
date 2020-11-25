@@ -349,6 +349,22 @@
     ],
     "timestamp": "Dec/20/2020 21:26"
   },
+  "CF99564406": {
+    "contest_id": 1213,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1213/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Two Small Strings",
+    "problem_url": "https://codeforces.com/contest/1213/problem/E",
+    "submission_id": "CF99564406",
+    "submission_url": "https://codeforces.com/contest/1213/submission/99564406",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1900"
+    ],
+    "timestamp": "Nov/25/2020 19:06"
+  },
   "CF99637995": {
     "contest_id": 1391,
     "language": "GNU C++17 (64)",
