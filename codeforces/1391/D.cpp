@@ -14,22 +14,30 @@ int solve(int pos, int mask) {
         return 0;
     }
     int &ans = dp[pos][mask];
-    if (ans != -1)return ans;
+    if(ans != -1)return ans;
     ans = INT_MAX;
-
-    for (int cur = 0; cur < (1 << m); cur++) {
-        int ct = 0;
-        for (int j = 0; j < m; j++)
-            ct += (v[pos][j] - '0') != (cur >> j & 1);
-        bool good = true;
-        for (int j = 1; j < m and pos; j++) {
-            int add = (cur >> j & 1) + (cur >> (j - 1) & 1);
-            add += (mask >> j & 1) + (mask >> (j - 1) & 1);
-            if (add & 1)continue;
-            good = false;
-            break;
+    if (pos == 0) {
+        for (int cur = 0; cur < (1 << m); cur++) {
+            int ct = 0;
+            for (int j = 0; j < m; j++)
+                ct += (v[pos][j] - '0') != (cur >> j & 1);
+            ans = min(ans, ct + solve(pos + 1, cur));
         }
-        if (good)ans = min(ans, ct + solve(pos + 1, cur));
+    } else {
+        for (int cur = 0; cur < (1 << m); cur++) {
+            int ct = 0;
+            for (int j = 0; j < m; j++)
+                ct += (v[pos][j] - '0') != (cur >> j & 1);
+            bool good = true;
+            for (int j = 1; j < m; j++) {
+                int add = (cur >> j & 1) + (cur >> (j - 1) & 1);
+                add += (mask >> j & 1) + (mask >> (j - 1) & 1);
+                if (add & 1)continue;
+                good = false;
+                break;
+            }
+            if (good)ans = min(ans, ct + solve(pos + 1, cur));
+        }
     }
     return ans;
 }
