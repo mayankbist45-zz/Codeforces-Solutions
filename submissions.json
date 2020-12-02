@@ -1,4 +1,20 @@
 {
+  "AC18525801": {
+    "contest_id": "abc184",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc184/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Third Avenue",
+    "problem_url": "https://atcoder.jp/contests/abc184/tasks/abc184_e",
+    "submission_id": "AC18525801",
+    "submission_url": "https://atcoder.jp/contests/abc184/submissions/18525801",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/02/2020 11:02"
+  },
   "AC18525950": {
     "contest_id": "abc181",
     "language": "C++ (GCC 9.2.1)",
