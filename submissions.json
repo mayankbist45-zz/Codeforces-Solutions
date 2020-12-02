@@ -1,4 +1,20 @@
 {
+  "AC18524930": {
+    "contest_id": "abc182",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc182/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "To 3",
+    "problem_url": "https://atcoder.jp/contests/abc182/tasks/abc182_c",
+    "submission_id": "AC18524930",
+    "submission_url": "https://atcoder.jp/contests/abc182/submissions/18524930",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/02/2020 09:39"
+  },
   "AC18525358": {
     "contest_id": "abc182",
     "language": "C++ (GCC 9.2.1)",
