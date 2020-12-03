@@ -1,4 +1,20 @@
 {
+  "AC18539656": {
+    "contest_id": "abc149",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc149/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Next Prime",
+    "problem_url": "https://atcoder.jp/contests/abc149/tasks/abc149_c",
+    "submission_id": "AC18539656",
+    "submission_url": "https://atcoder.jp/contests/abc149/submissions/18539656",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/03/2020 10:32"
+  },
   "AC18539751": {
     "contest_id": "abc141",
     "language": "C++ (GCC 9.2.1)",
