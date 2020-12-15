@@ -1,4 +1,23 @@
 {
+  "CF101248372": {
+    "contest_id": 1453,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1453/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dog Snacks",
+    "problem_url": "https://codeforces.com/contest/1453/problem/E",
+    "submission_id": "CF101248372",
+    "submission_url": "https://codeforces.com/contest/1453/submission/101248372",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Dec/15/2020 18:00"
+  },
   "CF101306544": {
     "contest_id": 1462,
     "language": "GNU C++17 (64)",
