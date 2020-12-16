@@ -1,4 +1,21 @@
 {
+  "CF101413984": {
+    "contest_id": 435,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/435/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Special Grid",
+    "problem_url": "https://codeforces.com/contest/435/problem/D",
+    "submission_id": "CF101413984",
+    "submission_url": "https://codeforces.com/contest/435/submission/101413984",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Dec/16/2020 15:58"
+  },
   "CF101473951": {
     "contest_id": 234,
     "language": "GNU C++17 (64)",
