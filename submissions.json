@@ -1,4 +1,20 @@
 {
+  "AC18806422": {
+    "contest_id": "abc131",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc131/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Anti-Division",
+    "problem_url": "https://atcoder.jp/contests/abc131/tasks/abc131_c",
+    "submission_id": "AC18806422",
+    "submission_url": "https://atcoder.jp/contests/abc131/submissions/18806422",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/16/2020 12:53"
+  },
   "AC18806467": {
     "contest_id": "agc037",
     "language": "C++ (GCC 9.2.1)",
