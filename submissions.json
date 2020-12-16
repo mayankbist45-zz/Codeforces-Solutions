@@ -1,4 +1,18 @@
 {
+  "CF101413919": {
+    "contest_id": 392,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/392/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Tower of Hanoi",
+    "problem_url": "https://codeforces.com/contest/392/problem/B",
+    "submission_id": "CF101413919",
+    "submission_url": "https://codeforces.com/contest/392/submission/101413919",
+    "tags": [
+      "dp"
+    ],
+    "timestamp": "Dec/16/2020 15:57"
+  },
   "CF101413984": {
     "contest_id": 435,
     "language": "GNU C++17 (64)",
