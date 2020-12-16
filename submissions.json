@@ -1,4 +1,20 @@
 {
+  "AC18806627": {
+    "contest_id": "abc121",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc121/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "XOR World",
+    "problem_url": "https://atcoder.jp/contests/abc121/tasks/abc121_d",
+    "submission_id": "AC18806627",
+    "submission_url": "https://atcoder.jp/contests/abc121/submissions/18806627",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/16/2020 13:08"
+  },
   "AC18820171": {
     "contest_id": "arc110",
     "language": "C++ (GCC 9.2.1)",
