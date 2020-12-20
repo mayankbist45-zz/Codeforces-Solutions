@@ -1,0 +1,19 @@
+{
+  "CF101884202": {
+    "contest_id": 1465,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1465/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Peaceful Rooks",
+    "problem_url": "https://codeforces.com/contest/1465/problem/C",
+    "submission_id": "CF101884202",
+    "submission_url": "https://codeforces.com/contest/1465/submission/101884202",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Dec/20/2020 21:26"
+  }
+}
