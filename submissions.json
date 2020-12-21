@@ -1,4 +1,20 @@
 {
+  "AC18920216": {
+    "contest_id": "abc059",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc059/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Three-letter acronym",
+    "problem_url": "https://atcoder.jp/contests/abc059/tasks/abc059_a",
+    "submission_id": "AC18920216",
+    "submission_url": "https://atcoder.jp/contests/abc059/submissions/18920216",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/21/2020 12:47"
+  },
   "AC18920232": {
     "contest_id": "abc103",
     "language": "C++ (GCC 9.2.1)",
