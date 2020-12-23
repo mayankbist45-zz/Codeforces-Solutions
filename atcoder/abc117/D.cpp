@@ -32,7 +32,7 @@ void solve() {
 //    cout << endl;
     int ans = 0;
     for (int bit = 58; bit >= 0; bit--) {
-        if (vis[bit] + vis[bit] < n and (1ll << bit) + ans <= k) {
+        if (vis[bit] + vis[bit] <= n and (1ll << bit) + ans <= k) {
             ans += (1ll << bit);
         }
     }
