@@ -1,4 +1,20 @@
 {
+  "AC18948240": {
+    "contest_id": "ddcc2020-qual",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/ddcc2020-qual/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "DDCC Finals",
+    "problem_url": "https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_a",
+    "submission_id": "AC18948240",
+    "submission_url": "https://atcoder.jp/contests/ddcc2020-qual/submissions/18948240",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/23/2020 11:18"
+  },
   "AC18948252": {
     "contest_id": "panasonic2020",
     "language": "C++ (GCC 9.2.1)",
