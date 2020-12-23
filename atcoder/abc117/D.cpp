@@ -28,18 +28,16 @@ void solve() {
                 vis[bit]++;
         }
     }
-    int ans = 0, ans2 = 0;
+//    for(auto x: vis)cout << x << " ";
+//    cout << endl;
+    int ans = 0;
     for (int bit = 58; bit >= 0; bit--) {
-        if (vis[bit] <= n - vis[bit] and ((1ll << bit) | ans) <= k) {
-            ans |= (1ll << bit);
+        if (vis[bit] + vis[bit] < n and (1ll << bit) + ans <= k) {
+            ans += (1ll << bit);
         }
     }
-    for (int bit = 0; bit <= 58; bit++) {
-        if (vis[bit] <= n - vis[bit] and ((1ll << bit) | ans2) <= k) {
-            ans2 |= (1ll << bit);
-        }
-    }
-    cout << max({solve(0, v), solve(ans, v), solve(ans2, v)}) << endl;
+//    cout << ans << endl;
+    cout << max(solve(0, v), solve(ans, v)) << endl;
 }
 
 int32_t main() {
