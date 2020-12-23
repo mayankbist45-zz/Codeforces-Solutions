@@ -1,4 +1,20 @@
 {
+  "AC18948379": {
+    "contest_id": "arc081",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc081/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Coloring Dominoes",
+    "problem_url": "https://atcoder.jp/contests/arc081/tasks/arc081_b",
+    "submission_id": "AC18948379",
+    "submission_url": "https://atcoder.jp/contests/arc081/submissions/18948379",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/23/2020 11:29"
+  },
   "AC18948457": {
     "contest_id": "code-festival-2016-quala",
     "language": "C++ (GCC 9.2.1)",
