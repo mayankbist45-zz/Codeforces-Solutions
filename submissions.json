@@ -1,4 +1,20 @@
 {
+  "AC18948457": {
+    "contest_id": "code-festival-2016-quala",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/code-festival-2016-quala/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "CODEFESTIVAL 2016",
+    "problem_url": "https://atcoder.jp/contests/code-festival-2016-quala/tasks/codefestival_2016_qualA_a",
+    "submission_id": "AC18948457",
+    "submission_url": "https://atcoder.jp/contests/code-festival-2016-quala/submissions/18948457",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/23/2020 11:36"
+  },
   "AC18948764": {
     "contest_id": "arc092",
     "language": "C++ (GCC 9.2.1)",
