@@ -12,13 +12,14 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-243 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [GNU C++17 (64)](./codeforces/1472/G.cpp) | `dfs and similar` `dp` `graphs` `shortest paths` `*2100` | Jan/06/2021 16:40 | 
-242 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17 (64)](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 23:26 | 
-241 | [C - Strange Birthday Party](https://codeforces.com/contest/1471/problem/C) | [GNU C++17 (64)](./codeforces/1471/C.cpp) | `brute force` `greedy` `sortings` | Jan/05/2021 20:31 | 
-240 | [B - Strange List](https://codeforces.com/contest/1471/problem/B) | [GNU C++17 (64)](./codeforces/1471/B.cpp) | `brute force` `greedy` `implementation` `math` | Jan/05/2021 20:17 | 
-239 | [A - Strange Partition](https://codeforces.com/contest/1471/problem/A) | [GNU C++17 (64)](./codeforces/1471/A.cpp) | `greedy` `math` `number theory` | Jan/05/2021 20:09 | 
-238 | [E - Correct Placement](https://codeforces.com/contest/1472/problem/E) | [GNU C++17 (64)](./codeforces/1472/E.cpp) | `binary search` `data structures` `dp` `sortings` `two pointers` `*1700` | Jan/04/2021 23:40 | 
-237 | [B - Glass Half Spilled](https://codeforces.com/contest/1458/problem/B) | [GNU C++17 (64)](./codeforces/1458/B.cpp) | `dp` `*2000` | Jan/04/2021 19:56 | 
+244 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [GNU C++17 (64)](./codeforces/1472/G.cpp) | `dfs and similar` `dp` `graphs` `shortest paths` `*2100` | Jan/06/2021 16:40 | 
+243 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17 (64)](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 23:26 | 
+242 | [C - Strange Birthday Party](https://codeforces.com/contest/1471/problem/C) | [GNU C++17 (64)](./codeforces/1471/C.cpp) | `brute force` `greedy` `sortings` | Jan/05/2021 20:31 | 
+241 | [B - Strange List](https://codeforces.com/contest/1471/problem/B) | [GNU C++17 (64)](./codeforces/1471/B.cpp) | `brute force` `greedy` `implementation` `math` | Jan/05/2021 20:17 | 
+240 | [A - Strange Partition](https://codeforces.com/contest/1471/problem/A) | [GNU C++17 (64)](./codeforces/1471/A.cpp) | `greedy` `math` `number theory` | Jan/05/2021 20:09 | 
+239 | [E - Correct Placement](https://codeforces.com/contest/1472/problem/E) | [GNU C++17 (64)](./codeforces/1472/E.cpp) | `binary search` `data structures` `dp` `sortings` `two pointers` `*1700` | Jan/04/2021 23:40 | 
+238 | [B - Glass Half Spilled](https://codeforces.com/contest/1458/problem/B) | [GNU C++17 (64)](./codeforces/1458/B.cpp) | `dp` `*2000` | Jan/04/2021 19:56 | 
+237 | [D - Three Integers](https://codeforces.com/contest/1311/problem/D) | [GNU C++17 (64)](./codeforces/1311/D.cpp) | `brute force` `math` `*2000` | Jan/03/2021 22:06 | 
 236 | [C - Peaceful Rooks](https://codeforces.com/contest/1465/problem/C) | [GNU C++17 (64)](./codeforces/1465/C.cpp) | `dfs and similar` `dsu` `greedy` `implementation` | Dec/20/2020 21:26 | 
 235 | [B - Fair Numbers](https://codeforces.com/contest/1465/problem/B) | [GNU C++17 (64)](./codeforces/1465/B.cpp) | `brute force` `number theory` | Dec/20/2020 20:49 | 
 234 | [A - In-game Chat](https://codeforces.com/contest/1465/problem/A) | [GNU C++17 (64)](./codeforces/1465/A.cpp) | `implementation` | Dec/20/2020 20:36 | 
