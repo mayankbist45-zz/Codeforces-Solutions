@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-239 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [GNU C++17 (64)](./codeforces/1472/G.cpp) | `dfs and similar` `dp` `graphs` `shortest paths` `*2100` | Jan/06/2021 16:40 | 
-238 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17 (64)](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 23:26 | 
-237 | [C - Strange Birthday Party](https://codeforces.com/contest/1471/problem/C) | [GNU C++17 (64)](./codeforces/1471/C.cpp) | `brute force` `greedy` `sortings` | Jan/05/2021 20:31 | 
+240 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [GNU C++17 (64)](./codeforces/1472/G.cpp) | `dfs and similar` `dp` `graphs` `shortest paths` `*2100` | Jan/06/2021 16:40 | 
+239 | [D - Strange Definition](https://codeforces.com/contest/1471/problem/D) | [GNU C++17 (64)](./codeforces/1471/D.cpp) | `bitmasks` `graphs` `hashing` `math` `number theory` | Jan/05/2021 23:26 | 
+238 | [C - Strange Birthday Party](https://codeforces.com/contest/1471/problem/C) | [GNU C++17 (64)](./codeforces/1471/C.cpp) | `brute force` `greedy` `sortings` | Jan/05/2021 20:31 | 
+237 | [B - Strange List](https://codeforces.com/contest/1471/problem/B) | [GNU C++17 (64)](./codeforces/1471/B.cpp) | `brute force` `greedy` `implementation` `math` | Jan/05/2021 20:17 | 
 236 | [C - Peaceful Rooks](https://codeforces.com/contest/1465/problem/C) | [GNU C++17 (64)](./codeforces/1465/C.cpp) | `dfs and similar` `dsu` `greedy` `implementation` | Dec/20/2020 21:26 | 
 235 | [B - Fair Numbers](https://codeforces.com/contest/1465/problem/B) | [GNU C++17 (64)](./codeforces/1465/B.cpp) | `brute force` `number theory` | Dec/20/2020 20:49 | 
 234 | [A - In-game Chat](https://codeforces.com/contest/1465/problem/A) | [GNU C++17 (64)](./codeforces/1465/A.cpp) | `implementation` | Dec/20/2020 20:36 | 
