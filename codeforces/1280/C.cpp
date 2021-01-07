@@ -10,13 +10,24 @@ const int MOD = 1000000007;
 vector<pair<int, int>> g[maxn];
 int k, val1 = 0, val2 = 0;
 
+bool dfs(int u, int p = -1) {
+    int ct = 0;
+    for (auto x : g[u]) {
+        if (x.first == p)continue;
+        bool taken = dfs(x.first, u);
+        if (taken)continue;
+        val1 += x.second;
+        ct++;
+    }
+    return (ct & 1);
+}
+
 int sz[maxn];
 void gfs(int u, int p = -1) {
     sz[u] = 1;
     for (auto x : g[u]) {
         if (x.first == p)continue;
         gfs(x.first, u);
-        val1 += (sz[x.first] & 1) * x.second;
         val2 += min(sz[x.first], 2 * k - sz[x.first]) * x.second;
         sz[u] += sz[x.first];
     }
@@ -35,6 +46,8 @@ void solve() {
         g[a].push_back({b, w});
         g[b].push_back({a, w});
     }
+    dfs(1);
+    //get val2
     gfs(1);
     cout << val1 << " " << val2 << endl;
 }
