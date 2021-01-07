@@ -2,6 +2,7 @@
 
 using namespace std;
 
+#define int long long
 #define endl '\n'
 #define maxn 100010
 const int MOD = 1000000007;
@@ -11,14 +12,15 @@ int visited[maxn], par[maxn], dep[maxn];
 vector<int> white, black;
 vector<int> cycle;
 
-bool dfs(int u, int color) {
+bool dfs(int u, int p, int color) {
+    par[u] = p;
     visited[u] = 1;
     if (color == 0)white.push_back(u);
     else black.push_back(u);
 
     int val = -1, id = -1;
     for (auto x: g[u]) {
-        if (visited[x] == 1 and x != par[u] and dep[x] > val) {
+        if (visited[x] == 1 and x != p and dep[x] > val) {
             val = dep[x];
             id = x;
         }
@@ -36,8 +38,7 @@ bool dfs(int u, int color) {
     for (auto x : g[u]) {
         if (!visited[x]) {
             dep[x] = 1 + dep[u];
-            par[x] = u;
-            if (dfs(x, color ^ 1))return true;
+            if (dfs(x, u, color ^ 1))return true;
         }
     }
     visited[u] = 2;
@@ -45,6 +46,7 @@ bool dfs(int u, int color) {
 }
 
 void solve() {
+    memset(dep, -1, sizeof dep);
     int n, m, k;
     cin >> n >> m >> k;
 
@@ -54,7 +56,8 @@ void solve() {
         g[a].push_back(b);
         g[b].push_back(a);
     }
-    if (dfs(1, 0)) {
+    dep[1] = 0;
+    if (dfs(1, -1, 0)) {
         if (cycle.size() <= k) {
             cout << 2 << endl;
             cout << cycle.size() << endl;
