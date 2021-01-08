@@ -72,7 +72,7 @@ int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    preprocess(51);
+    preprocess(10000);
     int t = 1;
 //    cin >> t;
 
