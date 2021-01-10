@@ -656,6 +656,23 @@
     ],
     "timestamp": "Jan/06/2021 16:40"
   },
+  "CF103963195": {
+    "contest_id": 245,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/245/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Queries for Number of Palindromes",
+    "problem_url": "https://codeforces.com/contest/245/problem/H",
+    "submission_id": "CF103963195",
+    "submission_url": "https://codeforces.com/contest/245/submission/103963195",
+    "tags": [
+      "dp",
+      "hashing",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Jan/10/2021 19:23"
+  },
   "CF103974024": {
     "contest_id": 507,
     "language": "GNU C++17 (64)",
