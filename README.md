@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+265 | [E - Number With The Given Amount Of Divisors](https://codeforces.com/contest/27/problem/E) | [GNU C++17 (64)](./codeforces/27/E.cpp) | `brute force` `dp` `number theory` `*2000` | Jan/13/2021 17:59 | 
 264 | [D - Antimatter](https://codeforces.com/contest/383/problem/D) | [GNU C++17 (64)](./codeforces/383/D.cpp) | `dp` `*2300` | Jan/11/2021 13:32 | 
 263 | [D - The Maths Lecture](https://codeforces.com/contest/507/problem/D) | [GNU C++17 (64)](./codeforces/507/D.cpp) | `dp` `implementation` `*2200` | Jan/10/2021 21:35 | 
 262 | [H - Queries for Number of Palindromes](https://codeforces.com/contest/245/problem/H) | [GNU C++17 (64)](./codeforces/245/H.cpp) | `dp` `hashing` `strings` `*1800` | Jan/10/2021 19:23 | 

@@ -939,6 +939,23 @@
     ],
     "timestamp": "Jan/11/2021 13:32"
   },
+  "CF104192782": {
+    "contest_id": 27,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/27/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Number With The Given Amount Of Divisors",
+    "problem_url": "https://codeforces.com/contest/27/problem/E",
+    "submission_id": "CF104192782",
+    "submission_url": "https://codeforces.com/contest/27/submission/104192782",
+    "tags": [
+      "brute force",
+      "dp",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Jan/13/2021 17:59"
+  },
   "CF87547944": {
     "contest_id": 1382,
     "language": "GNU C++14",
