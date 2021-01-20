@@ -19,6 +19,8 @@ void solve() {
         g[u].push_back({v, w});
         g[v].push_back({u, w});
     }
+    vector<pair<int, int>> g1[maxn];
+
     vector<vector<vector<int>>> dist(n, vector<vector<int>>(2, vector<int>(2, 1e14)));
     function<void(int)> dijkstra = [&](int src) {
         using data = pair<int, tuple<int, int, int>>;
@@ -40,7 +42,14 @@ void solve() {
                     for (int j = 0; j <= 1 - min_bool; j++) {
                         auto &cur_dest = dist[dest][i | max_bool][j | min_bool];
 
-                        int del = (1 - i + j) * x.second;
+                        int del = 0;
+                        if (i == 0 and j == 0) {
+                            del += x.second;
+                        } else if (i == 0 and j == 1) {
+                            del += 2 * x.second;
+                        } else if (i == 1 and j == 1) {
+                            del += x.second;
+                        }
 
                         if (cur_dest > dist[node][max_bool][min_bool] + del) {
                             cur_dest = dist[node][max_bool][min_bool] + del;
