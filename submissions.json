@@ -956,6 +956,25 @@
     ],
     "timestamp": "Jan/13/2021 17:59"
   },
+  "CF105342896": {
+    "contest_id": 1475,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1475/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cleaning the Phone",
+    "problem_url": "https://codeforces.com/contest/1475/problem/D",
+    "submission_id": "CF105342896",
+    "submission_url": "https://codeforces.com/contest/1475/submission/105342896",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "number theory",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Jan/25/2021 20:52"
+  },
   "CF105350147": {
     "contest_id": 1475,
     "language": "GNU C++17 (64)",
