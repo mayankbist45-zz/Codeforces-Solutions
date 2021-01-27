@@ -9,7 +9,16 @@ const int MOD = 1000000007;
 
 vector<int> g[maxn];
 vector<int> white;
-int clr[maxn], push[maxn];
+int visited[maxn], clr[maxn], push[maxn];
+
+void dfs(int u) {
+    visited[u] = true;
+    for (auto x : g[u]) {
+        if (!visited[x]) {
+            dfs(x);
+        }
+    }
+}
 
 void solve() {
     int n, m;
@@ -18,6 +27,7 @@ void solve() {
     white.clear();
     for (int i = 1; i <= n; i++) {
         g[i].clear();
+        visited[i] = false;
         push[i] = false;
         clr[i] = -1;
     }
@@ -32,32 +42,43 @@ void solve() {
     queue<int> q;
     q.push(1);
     clr[1] = 1;
-    push[1] = 1;
     vector<int> choose;
 
     while (!q.empty()) {
         int node = q.front();
         q.pop();
+
         if (clr[node] == -1)clr[node] = 1;
-        if (clr[node] == 1)
+        if (clr[node] == 1) {
             white.push_back(node);
-        for (auto x: g[node]) {
-            if (clr[x] == -1) {
-                if (!push[x])
-                    q.push(x), push[x] = 1;
-                if (clr[node] == 1)clr[x] = 0;
+            for (auto x: g[node]) {
+                if (clr[x] == -1) {
+                    if (!push[x])
+                        q.push(x), push[x] = 1;
+                    clr[x] = 0;
+                }
+            }
+        } else {
+            for (auto x: g[node]) {
+                if (clr[x] == -1 and !push[x]) {
+                    q.push(x);
+                    push[x] = 1;
+                }
             }
         }
     }
     for (int i = 1; i <= n; i++) {
-        if (push[i])continue;
-        cout << "NO" << endl;
-        return;
+        if (visited[i])continue;
+        dfs(i);
+        ct++;
     }
-    cout << "YES" << endl;
-    cout << white.size() << endl;
-    for (auto x: white)cout << x << " ";
-    cout << endl;
+    if (ct > 1)cout << "NO" << endl;
+    else {
+        cout << "YES" << endl;
+        cout << white.size() << endl;
+        for (auto x: white)cout << x << " ";
+        cout << endl;
+    }
 }
 
 int32_t main() {
