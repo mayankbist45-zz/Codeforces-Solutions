@@ -8,8 +8,8 @@ using namespace std;
 const int MOD = 1000000007;
 
 vector<int> g[maxn];
-vector<int> white;
-int visited[maxn], clr[maxn], push[maxn];
+set<int> white;
+int visited[maxn], clr[maxn];
 
 void dfs(int u) {
     visited[u] = true;
@@ -28,7 +28,6 @@ void solve() {
     for (int i = 1; i <= n; i++) {
         g[i].clear();
         visited[i] = false;
-        push[i] = false;
         clr[i] = -1;
     }
     for (int i = 0; i < m; ++i) {
@@ -50,19 +49,17 @@ void solve() {
 
         if (clr[node] == -1)clr[node] = 1;
         if (clr[node] == 1) {
-            white.push_back(node);
+            white.insert(node);
             for (auto x: g[node]) {
                 if (clr[x] == -1) {
-                    if (!push[x])
-                        q.push(x), push[x] = 1;
+                    q.push(x);
                     clr[x] = 0;
                 }
             }
         } else {
             for (auto x: g[node]) {
-                if (clr[x] == -1 and !push[x]) {
+                if (clr[x] == -1) {
                     q.push(x);
-                    push[x] = 1;
                 }
             }
         }
