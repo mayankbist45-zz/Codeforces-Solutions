@@ -1412,6 +1412,24 @@
     ],
     "timestamp": "Jan/25/2021 22:17"
   },
+  "CF105565842": {
+    "contest_id": 1469,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1469/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ceil Divisions",
+    "problem_url": "https://codeforces.com/contest/1469/problem/D",
+    "submission_id": "CF105565842",
+    "submission_url": "https://codeforces.com/contest/1469/submission/105565842",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Jan/27/2021 16:57"
+  },
   "CF105581401": {
     "contest_id": 1469,
     "language": "GNU C++17 (64)",

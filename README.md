@@ -12,15 +12,16 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-299 | [E - Pattern Matching](https://codeforces.com/contest/1476/problem/E) | [GNU C++17 (64)](./codeforces/1476/E.cpp) | `bitmasks` `data structures` `dfs and similar` `graphs` `implementation` `sortings` `strings` | Jan/30/2021 11:57 | 
-298 | [D - Journey](https://codeforces.com/contest/1476/problem/D) | [GNU C++17 (64)](./codeforces/1476/D.cpp) | `dfs and similar` `dp` `dsu` `implementation` | Jan/29/2021 20:54 | 
-297 | [C - Longest Simple Cycle](https://codeforces.com/contest/1476/problem/C) | [GNU C++17 (64)](./codeforces/1476/C.cpp) | `dp` `graphs` `greedy` | Jan/29/2021 20:36 | 
-296 | [B - Inflation](https://codeforces.com/contest/1476/problem/B) | [GNU C++17 (64)](./codeforces/1476/B.cpp) | `binary search` `brute force` `greedy` `math` | Jan/29/2021 20:15 | 
-295 | [A - K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | [GNU C++17 (64)](./codeforces/1476/A.cpp) | `binary search` `constructive algorithms` `greedy` `math` | Jan/29/2021 20:09 | 
-294 | [C - Nezzar and Symmetric Array](https://codeforces.com/contest/1478/problem/C) | [GNU C++17 (64)](./codeforces/1478/C.cpp) | `implementation` `math` `sortings` `*1700` | Jan/28/2021 22:56 | 
-293 | [B - Nezzar and Lucky Number](https://codeforces.com/contest/1478/problem/B) | [GNU C++17 (64)](./codeforces/1478/B.cpp) | `brute force` `dp` `greedy` `math` `*1100` | Jan/28/2021 22:06 | 
-292 | [A - Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | [GNU C++17 (64)](./codeforces/1478/A.cpp) | `brute force` `greedy` `*800` | Jan/28/2021 20:06 | 
-291 | [C - Building a Fence](https://codeforces.com/contest/1469/problem/C) | [GNU C++17 (64)](./codeforces/1469/C.cpp) | `dp` `greedy` `implementation` `two pointers` `*1600` | Jan/27/2021 19:54 | 
+300 | [E - Pattern Matching](https://codeforces.com/contest/1476/problem/E) | [GNU C++17 (64)](./codeforces/1476/E.cpp) | `bitmasks` `data structures` `dfs and similar` `graphs` `implementation` `sortings` `strings` | Jan/30/2021 11:57 | 
+299 | [D - Journey](https://codeforces.com/contest/1476/problem/D) | [GNU C++17 (64)](./codeforces/1476/D.cpp) | `dfs and similar` `dp` `dsu` `implementation` | Jan/29/2021 20:54 | 
+298 | [C - Longest Simple Cycle](https://codeforces.com/contest/1476/problem/C) | [GNU C++17 (64)](./codeforces/1476/C.cpp) | `dp` `graphs` `greedy` | Jan/29/2021 20:36 | 
+297 | [B - Inflation](https://codeforces.com/contest/1476/problem/B) | [GNU C++17 (64)](./codeforces/1476/B.cpp) | `binary search` `brute force` `greedy` `math` | Jan/29/2021 20:15 | 
+296 | [A - K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | [GNU C++17 (64)](./codeforces/1476/A.cpp) | `binary search` `constructive algorithms` `greedy` `math` | Jan/29/2021 20:09 | 
+295 | [C - Nezzar and Symmetric Array](https://codeforces.com/contest/1478/problem/C) | [GNU C++17 (64)](./codeforces/1478/C.cpp) | `implementation` `math` `sortings` `*1700` | Jan/28/2021 22:56 | 
+294 | [B - Nezzar and Lucky Number](https://codeforces.com/contest/1478/problem/B) | [GNU C++17 (64)](./codeforces/1478/B.cpp) | `brute force` `dp` `greedy` `math` `*1100` | Jan/28/2021 22:06 | 
+293 | [A - Nezzar and Colorful Balls](https://codeforces.com/contest/1478/problem/A) | [GNU C++17 (64)](./codeforces/1478/A.cpp) | `brute force` `greedy` `*800` | Jan/28/2021 20:06 | 
+292 | [C - Building a Fence](https://codeforces.com/contest/1469/problem/C) | [GNU C++17 (64)](./codeforces/1469/C.cpp) | `dp` `greedy` `implementation` `two pointers` `*1600` | Jan/27/2021 19:54 | 
+291 | [D - Ceil Divisions](https://codeforces.com/contest/1469/problem/D) | [GNU C++17 (64)](./codeforces/1469/D.cpp) | `brute force` `constructive algorithms` `math` `number theory` `*1700` | Jan/27/2021 16:57 | 
 290 | [F - Unusual Matrix](https://codeforces.com/contest/1475/problem/F) | [GNU C++17 (64)](./codeforces/1475/F.cpp) | `2-sat` `constructive algorithms` `greedy` `matrices` | Jan/25/2021 22:17 | 
 289 | [G - Strange Beauty](https://codeforces.com/contest/1475/problem/G) | [GNU C++17 (64)](./codeforces/1475/G.cpp) | `dp` `math` `number theory` | Jan/25/2021 21:37 | 
 288 | [E - Advertising Agency](https://codeforces.com/contest/1475/problem/E) | [GNU C++17 (64)](./codeforces/1475/E.cpp) | `combinatorics` `implementation` `math` `sortings` | Jan/25/2021 20:59 | 
