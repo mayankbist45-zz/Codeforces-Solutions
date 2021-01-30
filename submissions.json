@@ -1,4 +1,20 @@
 {
+  "AC19820499": {
+    "contest_id": "abc190",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc190/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Magical Ornament",
+    "problem_url": "https://atcoder.jp/contests/abc190/tasks/abc190_e",
+    "submission_id": "AC19820499",
+    "submission_url": "https://atcoder.jp/contests/abc190/submissions/19820499",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jan/30/2021 19:28"
+  },
   "AC19835046": {
     "contest_id": "arc111",
     "language": "C++ (GCC 9.2.1)",
